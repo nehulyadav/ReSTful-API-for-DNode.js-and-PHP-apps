@@ -3,7 +3,7 @@ abstract class Controller
 {
     /**
      * Property: method
-     * The HTTP method- this request can be made in, either GET, POST, PUT or DELETE
+     * The request method- this request can be made in either GET, POST, PUT or DELETE
      */
     protected $method = '';
     protected $file = Null;
