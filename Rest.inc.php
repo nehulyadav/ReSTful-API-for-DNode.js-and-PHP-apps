@@ -23,9 +23,8 @@
 			echo $data;
 			exit;
 		}
-		
 		private function get_status_message(){
-			$status = array(
+			$status = array (
 						100 => 'Continue',  
 						101 => 'Switching Protocols',  
 						200 => 'OK',
@@ -63,7 +62,7 @@
 						417 => 'Expectation Failed',  
 						500 => 'Internal Server Error',  
 						501 => 'Not Implemented',  
-						502 => 'Bad Gateway',  
+						502 => 'BAD Gateway',  
 						503 => 'Service Unavailable',  
 						504 => 'Gateway Timeout',  
 						505 => 'HTTP Version Not Supported');
